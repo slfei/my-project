@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h1>{{ branch }}</h1>
+
   <!--  <h2>Essential Links</h2>
     <ul>
       <li>
@@ -88,7 +90,8 @@
     name: 'HelloWorld',
     data () {
       return {
-        msg: 'Welcome to my  project'
+        msg: 'Welcome to my  project',
+        branch: "first  branch "
       }
     }
  }
